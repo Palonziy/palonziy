@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palonziy | Software & Data Specialist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Palonziy</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Bosh sahifa</a></li>
+                    <li><a href="projects.html">Loyihalar</a></li>
+                    <li><a href="about.html">Men haqimda</a></li>
+                    <li><a href="contact.html">Aloqa</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Og'abek Razzoqov</h1>
+                <h2 class="animate-on-scroll">Software & Data Specialist</h2>
+                <p class="animate-on-scroll">Dasturiy yechimlar va ma'lumotlarga asoslangan qarorlar orqali muammolarga
+                    yechim topamiz</p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="projects.html" class="btn primary-btn">Loyihalarni ko‘rish</a>
+                    <a href="contact.html" class="btn secondary-btn">Bog‘lanish</a>
+                </div>
+            </div>
+            <div class="hero-visual animate-on-scroll">
+                <div class="data-visualization">
+                    <!-- Bu yerda interaktiv data vizualizatsiya elementi bo'ladi -->
+                    <div class="data-points"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Tanlangan loyihalar</h2>
+            <div class="projects-grid">
+
+                <div class="project-card animate-on-scroll" data-category="web-dev">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="YouTube Video Downloader loyihasi">
+                    </div>
+                    <div class="project-info">
+                        <h3>YouTube Video Downloader</h3>
+                        <p>Flask va React asosida yaratilgan, YouTube videolarini yuklab olish imkonini beruvchi
+                            veb-ilova.</p>
+                        <div class="project-tech">
+                            <span>HTML & CSS & JS</span>
+                            <span>React</span>
+                            <span>Flask</span>
+                        </div>
+                        <a href="#" class="btn project-btn" data-project="project3">Batafsil</a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-category="ml-ai">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Patient Recovery System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Patient Recovery System</h3>
+                        <p>Mikroxizmatlar va AI yordamida bemor tiklanishini real vaqt rejimida boshqaruvchi platforma.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>gRPC</span>
+                            <span>React</span>
+                        </div>
+                        <a href="#" class="btn project-btn" data-project="project2">Batafsil</a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Sotuvlar tahlili loyihasi">
+                    </div>
+                    <div class="project-info">
+                        <h3>Halokatlar tahlili</h3>
+                        <p>Austin shahri ma'lumotlari asosida halokatlar tendensiyasini aniqlash va prognozlash.</p>
+                        <div class="project-tech">
+                            <span>Excel</span>
+                            <span>Tableau</span>
+                        </div>
+                        <a href="#" class="btn project-btn" data-project="project1">Batafsil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn animate-on-scroll">
+                <a href="projects.html" class="btn primary-btn">Barcha loyihalarni ko‘rish</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Men haqimda</h2>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="images/profile.jpg" width="300" alt="Palonziy">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <p>Men Software & Data Specialist sifatida dasturiy ta'minot ishlab chiqish va ma'lumotlarni tahlil
+                        qilish sohalarini birlashtirgan holda ishlayman. Ayni paytda PDP Universityda "Software
+                        Development and Programming" yo'nalishi bo‘yicha bakalavriatni yakunlayapman.</p>
+                    <p><strong>Texnik ko‘nikmalar:</strong></p>
+                    <ul>
+                        <li><strong>Tillar:</strong> JavaScript (ES6+), SQL, Python(Basic)</li>
+                        <li><strong>Veb texnologiyalar:</strong> HTML5, CSS3, Bootstrap, REST API, Responsive dizayn
+                        </li>
+                        <li><strong>Ma'lumotlar bazalari:</strong> SSMS, MySQL</li>
+                        <li><strong>Data texnologiyalar:</strong> Excel, Tableau</li>
+                        <li><strong>Git texnologiyalar:</strong> Git, GitHub</li>
+                        <li><strong>Boshqalar:</strong> Docker, Postman</li>
+                        <li><strong>Operatsion tizimlar:</strong> Windows, Linux</li>
+                    </ul>
+                    <a href="about.html" class="btn secondary-btn">Ko‘proq o‘qish</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Modal content will be loaded dynamically with JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Og'abek Razzoqov</h3>
+                    <p>Software & Data Specialist</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/palonziy" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://t.me/palonziy" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://github.com/Palonziy" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/palonziy" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=6cdjttfIiwc0&format=png&color=000000"
+                            alt="LeetCode" style="width: 25px; height: 25px; background-color: white; margin-top: 7px; border-radius: 5px;">
+                    </a>
+                    <a href="mailto:palonziy@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Palonziy | Software & Data Specialist</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloqa | Palonziy - Software & Data Specialist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Palonziy</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="projects.html">Loyihalar</a></li>
+                    <li><a href="about.html">Men haqimda</a></li>
+                    <li><a href="contact.html" class="active">Aloqa</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="animate-on-scroll">Aloqa</h1>
+            <p class="animate-on-scroll">Men bilan bog'lanish uchun quyidagi shaklni to'ldiring yoki ijtimoiy tarmoqlar
+                orqali murojaat qiling</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-form animate-on-scroll">
+                    <h2>Aloqa shakli</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ism</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Mavzu</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Xabar</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Yuborish</button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+
+                <div class="contact-info animate-on-scroll">
+                    <h2>Bog'lanish ma'lumotlari</h2>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:palonziy@gmail.com">palonziy@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+998914466977">+998 91 446 69 77</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Manzil</h3>
+                            <p>Toshkent, O'zbekiston</p>
+                        </div>
+                    </div>
+
+                    <h2 class="social-title">Ijtimoiy tarmoqlar</h2>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/palonziy" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Palonziy" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://leetcode.com/u/palonziy" target="_blank" class="social-link">
+                            <i class="fab fa-leetcode"></i>
+                            <span>Leetcode</span>
+                        </a>
+                        <a href="https://t.me/palonziy" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+
+                    <div class="cv-download">
+                        <a href="#" class="btn secondary-btn" id="downloadCV">
+                            <i class="fas fa-download"></i> CV yuklab olish
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Og'abek Razzoqov</h3>
+                    <p>Software & Data Specialist</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/palonziy" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://t.me/palonziy" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://github.com/Palonziy" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/palonziy" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=6cdjttfIiwc0&format=png&color=000000"
+                            alt="LeetCode"
+                            style="width: 25px; height: 25px; background-color: white; margin-top: 7px; border-radius: 5px;">
+                    </a>
+                    <a href="mailto:palonziy@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Palonziy | Software & Data Specialist</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
